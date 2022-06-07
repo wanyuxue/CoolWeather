@@ -80,6 +80,8 @@ public class WeatherActivity extends Activity implements OnClickListener{
 	// 没有县级代号时就直接显示本地天气
 	showWeather();
 	}
+	switchCity = (Button) findViewById(R.id.switch_city);
+	refreshWeather = (Button) findViewById(R.id.refresh_weather);
 	switchCity.setOnClickListener((OnClickListener) this);
 	refreshWeather.setOnClickListener(this);
 	}
